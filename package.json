@@ -1,14 +1,23 @@
 {
-  "name": "parentheses",
+  "name": "ds-fifth-to-last",
   "version": "1.0.0",
   "description": "",
-  "main": "parentheses.js",
+  "main": "fifth_to_last.js",
+  "dependencies": {
+    "save": "^2.3.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riccochapa/ds-fifth-to-last.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "algorithm": "0.0.2"
-  }
+  "bugs": {
+    "url": "https://github.com/riccochapa/ds-fifth-to-last/issues"
+  },
+  "homepage": "https://github.com/riccochapa/ds-fifth-to-last#readme"
 }
