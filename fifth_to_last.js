@@ -23,7 +23,8 @@ function test(one, two, three) {
   }
   checkThree.popback(); checkThree.popback();
   checkThree.popback(); checkThree.popback();
-  checkThree.popback();
+  const fifthToLast = checkThree.popback();
+  return fifthToLast;
 }
 
 test(33, 222, 69);
