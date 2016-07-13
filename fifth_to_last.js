@@ -21,7 +21,7 @@ function test(one, two, three) {
     checkThree.pushfront(Math.floor(Math.random() * two * random));
     checkThree.pushback(Math.floor(Math.random() * one * random));
   }
-  console.log("Test zero array: " + checkThree.stac);
+  console.log("Test array: " + checkThree.stac);
   checkThree.popback(),checkThree.popback(),checkThree.popback(),checkThree.popback(); console.log("Fifth from last: " + checkThree.popback());
 }
 
